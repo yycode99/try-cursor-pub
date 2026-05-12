@@ -1,0 +1,17 @@
+{
+  "name": "appium-getting-started",
+  "version": "1.0.0",
+  "description": "Appium 移动端自动化测试入门示例",
+  "scripts": {
+    "test": "jest",
+    "test:android": "jest tests/android-basic.test.js",
+    "test:ios": "jest tests/ios-basic.test.js"
+  },
+  "dependencies": {
+    "webdriverio": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0"
+  }
+}
